@@ -6,11 +6,13 @@
  *  @package Hega
  */
 get_header();
+include( 'database/conection.php');
 ?>
 
 <div class="container">
     <h3><?php the_title(); ?></h3>
-    <p><?php the_content(); ?></p>
+    <p><?php echo $marca ?></p>
+    
     
 </div>
 
